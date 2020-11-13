@@ -1,0 +1,10 @@
+version: '3.2'
+services:
+  redis:
+    image: redis:5.0.5-alpine
+    ports:
+      - 6379:6379
+  mongo:
+    image: mongo:4.1.5-xenial
+    ports:
+      - 27017:27017
